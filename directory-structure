@@ -1,0 +1,19 @@
+k8s/
+├── frontend/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── configmap.yaml
+├── backend/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   ├── configmap.yaml
+│   └── secret.yaml
+├── mongodb/
+│   ├── statefulset.yaml
+│   ├── service.yaml
+│   └── secret.yaml
+├── rabbitmq/
+│   ├── statefulset.yaml
+│   ├── service.yaml
+│   └── configmap.yaml
+└── namespace.yaml 
